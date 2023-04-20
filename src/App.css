@@ -1,0 +1,139 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.nav {
+   gap: 290px;
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 3% 10% 0 10%;
+   background: transparent;
+}
+
+.nav > .nav-items1 {
+   display: flex;
+   align-items: center;
+   gap: 80px;
+}
+
+.anchor-container1 > a {
+   justify-content: center;
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   text-decoration: none;
+}
+
+.anchor-items1 {
+   color: #101c45;
+   font-weight: bold;
+}
+
+.anchor-container2 {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+.anchor-container2 .home {
+   font-weight: bold;
+}
+
+.anchor-container2 a {
+   color: #101c45;
+   text-decoration: none;
+}
+
+.nav-items2 {
+   align-items: center;
+   display: flex;
+   gap: 30px;
+}
+
+.nav-items2 a {
+   font-weight: bold;
+   text-decoration: none;
+   color: #101c45;
+}
+
+.nav-items2 > .book-now {
+   border: 1px solid #101c45;
+   padding: 8px 20px;
+}
+
+.hero-container {
+   align-items: center;
+   padding: 0 10%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.hero-items1 {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   flex-direction: column;
+   gap: 10px;
+   width: 60%;
+   padding: 4%;
+}
+
+.hero-items1 > h3 {
+   margin: 0;
+   color: #101c45;
+   text-align: left;
+   font-size: 50px;
+}
+
+.hero-items1 > p {
+   color: #101c45;
+}
+
+.hero-items2 {
+   margin-top: 3%;
+   background-image: url("./src/assets/Rectangle.svg");
+   padding-left: 6%;
+   object-fit: cover;
+}
+
+.book {
+   background-color: #203271;
+   border: none;
+   padding: 3% 6%;
+   color: #ffffff;
+}
+
+.fitur-container {
+   padding: 5%;
+   margin: 0 10% 3% 10%;
+   display: flex;
+   background-color: #203271;
+}
+
+.items-container {
+   gap: 20px;
+   display: flex;
+   align-items: flex-start;
+}
+
+.items1 {
+   gap: 10px;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.items1 h4 {
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   margin: 0;
+}
+
+.items1 p {
+   color: #fff;
+   margin: 0;
+}
